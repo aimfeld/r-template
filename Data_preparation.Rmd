@@ -1,0 +1,13 @@
+---
+output:
+  html_document:
+    code_folding: hide
+urlcolor: blue
+---
+```{r child = 'Knitr_setup.Rmd'}
+```
+
+
+# Data preparation
+
+Prepare your data here an save it as a .csv file. In your following chapters, you can load the data from the .csv file.

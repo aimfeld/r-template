@@ -1,0 +1,30 @@
+---
+title: "Group project template"
+author: "Adrian Imfeld"
+date: \today
+output:
+  html_document:
+    toc: yes
+    toc_float: true
+    toc_depth: 3
+    number_sections: true
+    code_folding: hide
+urlcolor: blue
+---
+
+```{r child = 'Knitr_setup.Rmd'}
+```
+
+\newpage
+
+```{r child = 'Introduction.Rmd'}
+```
+
+```{r child = 'Data_preparation.Rmd'}
+```
+
+```{r child = 'Examples.Rmd'}
+```
+
+```{r child = 'Conclusion.Rmd'}
+```

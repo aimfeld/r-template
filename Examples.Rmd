@@ -1,0 +1,34 @@
+---
+output:
+  html_document:
+    code_folding: hide
+urlcolor: blue
+---
+
+```{r child = 'Knitr_setup.Rmd'}
+```
+
+# Examples
+
+Cell rendered with default chunk settings:
+
+```{r}
+2 + 4
+```
+
+Hide results by adding `{r results = FALSE}`:
+
+```{r results = FALSE}
+3 + 5
+```
+
+Hide code and results by adding `{r echo = FALSE, results = FALSE}`, or use `{r include = FALSE}`:
+
+```{r echo = FALSE, results = FALSE}
+7 + 8
+```
+
+Unfold html by default by adding `{r class.source = 'fold-show'}`:
+```{r class.source = 'fold-show'}
+11 + 12
+```
