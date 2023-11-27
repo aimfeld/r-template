@@ -9,7 +9,3 @@ urlcolor: blue
 ```
 
 # Introduction
-
-This template gives you a starting point for structuring a datascience project using R markdown. Having chapters in separate files facilitates collaboration and version control. Also, each chapter imports the same [Knitr_setup.Rmd](Knitr_setup.Rmd) file, so you can knit individual chapters or the whole document [Main.Rmd](Main.Rmd). Make sure you can knit your chapter independently, because knitting your main document will become slower as your project grows.
-
-The template renders html files, but it's easy to change it to pdf.

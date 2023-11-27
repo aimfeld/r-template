@@ -9,5 +9,3 @@ urlcolor: blue
 
 
 # Data preparation
-
-Prepare your data here an save it as a .csv file. In your following chapters, you can load the data from the .csv file.

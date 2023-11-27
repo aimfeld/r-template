@@ -1,5 +1,5 @@
 ---
-title: "Group project template"
+title: "R Markdown Project Template"
 author: "Adrian Imfeld"
 date: \today
 output:
